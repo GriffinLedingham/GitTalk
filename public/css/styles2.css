@@ -1,0 +1,156 @@
+.landing-div {
+  list-style-type: none;
+  height:auto;
+  width:100%;
+  display: block;
+}
+
+.landing-div.el-1 {
+    background: url('../assets/angle-header.jpg');
+  background-size: 100%;
+  background-position: 48% 0%;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.landing-div.el-2 {
+  background:white;
+  color:black;
+  padding-top: 80px;
+  box-sizing: border-box;
+  box-shadow: inset 0 25px 20px -24px rgba(0,0,0,0.8),inset 0 -25px 20px -30px rgba(0,0,0,0.8);
+}
+
+.landing-div.el-3 {
+  background:#1B9766;
+  padding-top: 80px;
+  box-sizing: border-box;
+  color:white;
+}
+
+.landing-div.el-4 {
+  background:#ededed;
+  color:black;
+  padding-top: 80px;
+  box-sizing: border-box;
+  box-shadow: inset 0 25px 20px -24px rgba(0,0,0,0.8),inset 0 -25px 20px -30px rgba(0,0,0,0.8);
+
+}
+
+.landing-div.el-5 {
+  padding-bottom:40px;
+  background:#353535;
+  color:white;
+  padding-top: 80px;
+  box-sizing: border-box;
+
+}
+
+#header_img {
+  width: 70%;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  max-width: 450px;
+}
+
+#github_icon {
+  display: block;
+  width: 15%;
+  max-width: 150px;
+  min-width: 100px;
+  margin: auto;
+}
+
+#landing_blurb {
+  font-size: 22px;
+  font-family: Roboto;
+  padding: 40px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.button {
+  border-radius: 5px;
+  background:#1B9766;
+  border-top: 1px solid #52A283;
+  letter-spacing: 0;
+  text-align: center;
+  font-size:26px;
+  cursor:pointer;
+  text-decoration: none;
+  color:white;
+}
+
+.button:hover {
+  background: #19573F;
+  border-top:1px solid #153025;
+}
+
+#signup_btn {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 46px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top:80px;
+}
+
+#signup_btn_2 {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 46px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 55px;
+  margin-bottom: -120px;
+}
+
+body {
+  background:#1B9766;
+  padding-bottom: 100px;
+  font-family: Roboto;
+  padding :0; margin:0
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 715px) {
+  .landing-div.el-1 {
+background: url('../assets/angle-header.jpg');
+  background-size: 150%;
+  background-position: 7% 0%;
+  padding-bottom: 130px;
+  padding-top: 100px;
+  }
+
+  #signup_btn_2 {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 47px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: -50px;
+  }
+
+  #signup_btn {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 46px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top:-30px;
+  }
+
+}

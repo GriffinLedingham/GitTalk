@@ -1,0 +1,527 @@
+body {
+  background:#1B9766;
+  padding-bottom: 100px;
+  font-family: Roboto;
+}
+
+#header_img {
+background: url('../assets/landing-banner.png');
+height: 349px;
+width: 450px;
+margin: auto;
+background-size: 450px;
+background-repeat: no-repeat;
+margin-top:130px;
+}
+
+#header_img_login {
+background: url('../assets/landing-banner-2.png');
+height: 349px;
+width: 450px;
+margin: auto;
+background-size: 450px;
+background-repeat: no-repeat;
+margin-top:130px;
+margin-bottom:-80px;
+}
+
+#information {
+  text-align: center;
+  color:white;
+  font-size:40px;
+  font-family: Roboto;
+  padding-left:100px;
+  padding-right:100px;
+  width:100%;
+  margin-top:-60px;
+  box-sizing:border-box;
+}
+
+#logout_information {
+  color:white;
+  font-size:40px;
+  font-family: Roboto;
+  padding-left:100px;
+  padding-right:100px;
+  width:100%;
+  margin-top:-60px;
+  text-align: center;
+  box-sizing:border-box;
+  margin-bottom: 100px;
+}
+
+#buttons {
+  position: relative;
+  display: block;
+  margin:auto;
+    color:white;
+  font-family: Roboto;
+  margin-top:110px;
+  width: 420px;
+height: 70px;
+}
+
+.button {
+  border-radius: 5px;
+  background:#1E7C57;
+border-top: 1px solid #31745A;
+letter-spacing: 0;
+text-align: center;
+  font-size:26px;
+  cursor:pointer;
+  text-decoration: none;
+color:white;
+}
+
+.button:hover {
+  background: #19573F;
+}
+
+#info_btn {
+  float: left;
+display: block;
+margin: auto;
+width: 200px;
+height: 52px;
+padding-top: 7px;
+margin-right:20px;
+text-decoration: none;
+color:white;
+}
+
+#signup_btn {
+display: block;
+margin: auto;
+width: 200px;
+height: 52px;
+padding-top: 7px;
+}
+
+#username {
+  width:345px;
+  margin: auto;
+display: block;
+font-size: 20px;
+border-radius: 6px;
+padding-left: 10px;
+height: 50px;
+box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px, rgba(0, 0, 0, 0.0980392) 0px 2px 1px 0px inset;
+border-color: rgb(226,226,226);
+border-width: 1px;
+font-family: 'Roboto', sans-serif;
+margin-bottom: 10px;
+}
+
+#password {
+  width:345px;
+  margin: auto;
+display: block;
+font-size: 20px;
+border-radius: 6px;
+padding-left: 10px;
+height: 50px;
+box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px, rgba(0, 0, 0, 0.0980392) 0px 2px 1px 0px inset;
+border-color: rgb(226,226,226);
+border-width: 1px;
+font-family: 'Roboto', sans-serif;
+margin-bottom:10px;
+}
+
+#confirm_password {
+  width:345px;
+  margin: auto;
+display: block;
+font-size: 20px;
+border-radius: 6px;
+padding-left: 10px;
+height: 50px;
+box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px, rgba(0, 0, 0, 0.0980392) 0px 2px 1px 0px inset;
+border-color: rgb(226,226,226);
+border-width: 1px;
+font-family: 'Roboto', sans-serif;
+margin-bottom:10px;
+}
+
+#email {
+  width:345px;
+  margin: auto;
+display: block;
+font-size: 20px;
+border-radius: 6px;
+padding-left: 10px;
+height: 50px;
+box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px, rgba(0, 0, 0, 0.0980392) 0px 2px 1px 0px inset;
+border-color: rgb(226,226,226);
+border-width: 1px;
+font-family: 'Roboto', sans-serif;
+margin-bottom:10px;
+}
+
+#submit_btn {
+  margin-top:10px;
+  color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:40px;
+  display:block;
+
+}
+
+#cancel_btn {
+  margin-top:10px;
+  color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:40px;
+  display:block;
+
+}
+
+#login {
+  color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:40px;
+  display:block;
+  margin-top:20px;
+
+}
+
+#signup {
+  color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  display:block;
+
+}
+
+#github_login {
+  color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  display:block;
+
+}
+
+#back_to_menu {
+    color:white;
+  width:345px;
+  margin:auto;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  display:block;
+  margin-top:40px;
+}
+
+.signup-user-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+
+}
+
+.login-user-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+
+}
+
+.signup-pass-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.signup-pass-char-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.signup-user-char-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.signup-email-error{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(219, 167, 167);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.signup-user-success{
+height: 0px;
+width: 345px;
+display: block;
+margin: auto;
+text-align: center;
+background: rgb(167, 219, 173);
+border-radius: 5px;
+padding-top: 0px;
+transition: padding-top 1s, height 1s;
+box-sizing: border-box;
+overflow:hidden;
+margin-bottom:10px;
+}
+
+.signup-error-visible{
+  height:50px;
+  padding-top: 14px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 715px) {
+/* Styles */
+  #header_img {
+    width: 310px;
+background-size: 310px;
+margin-top:40px;
+  }
+
+    #header_img_login {
+    width: 310px;
+background-size: 310px;
+margin-top:40px;
+margin-bottom: -170px;
+  }
+
+  #information {
+    color: white;
+font-size: 20px;
+font-family: Roboto;
+padding-left: 25px;
+padding-right: 25px;
+width: 100%;
+margin-top: -180px;
+box-sizing: border-box;
+  }
+
+  #logout_information {
+  font-size:20px;
+  margin-bottom: 50px;
+}
+
+  #info_btn {
+    float:none;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 39px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 20px;
+  }
+
+  #signup_btn {
+    float:none;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 39px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 100px;
+
+  }
+
+    #submit_btn {
+    float:none;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 39px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 100px;
+      margin-bottom:40px;
+
+
+  }
+
+      #cancel_btn {
+    float:none;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 39px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 100px;
+      margin-bottom:40px;
+
+
+  }
+
+  #buttons {
+    float:none;
+    position: relative;
+display: block;
+margin: auto;
+color: white;
+font-family: Roboto;
+margin-top: 40px;
+width: 300px;
+height: 70px;
+  }
+
+  #username {
+font-size: 20px;
+width:250px;
+}
+
+#password {
+font-size: 20px;
+
+width:250px;
+
+}
+
+#email {
+font-size: 20px;
+
+width:250px;
+
+}
+
+#confirm_password {
+font-size: 20px;
+
+width:250px;
+
+}
+
+#login {
+  width:250px;
+}
+
+#signup {
+  width:250px;
+}
+
+#github_login {
+  width:250px;
+}
+
+#back_to_menu {
+  width:250px;
+}
+
+.signup-user-success{
+  width:250px;
+    font-size:14px;
+
+}
+
+.signup-user-error{
+  width:250px;
+    font-size:14px;
+
+}
+
+.login-user-error{
+  width:250px;
+    font-size:14px;
+
+}
+
+.signup-pass-error{
+    width:250px;
+    font-size:14px;
+
+}
+
+.signup-pass-char-error{
+    width:250px;
+    font-size:14px;
+
+}
+
+.signup-user-char-error{
+    width:250px;
+    font-size:14px;
+
+}
+
+.signup-email-error{
+    width:250px;
+    font-size:14px;
+
+}
+
+.signup-error-visible{
+  height:50px;
+  padding-top: 6px;
+}
+
+}
