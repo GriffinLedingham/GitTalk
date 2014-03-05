@@ -7,18 +7,18 @@ DB Structure
 ===========
 
 posts:
-  uname
-  room
-  message
-  timestamp
+  uname,
+  room,
+  message,
+  timestamp,
   img
   
 rooms:
-  token
+  token,
   rooms
 
 users:
-  uname
-  password
-  token
+  uname,
+  password,
+  token,
   email
