@@ -1,0 +1,20 @@
+{
+  "name": "gittalk-server",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Griffin Ledingham <gcledingham@gmail.com>",
+  "dependencies" : {
+    "http" : "*",
+    "express" : "3.4.8",
+    "mysql" : "*",
+    "markx" : "*",
+    "socket.io" : "*",
+    "gith" : "*",
+    "github" : "*",
+    "github-oauth" : "*"
+  }, 
+  "license": "GPL v2",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
