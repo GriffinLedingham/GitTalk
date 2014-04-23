@@ -368,8 +368,10 @@ io.sockets.on('connection', function (socket) {
 			{
 				return;
 			}
+			console.log(socket.token);
 			var room_query = db.query("SELECT token, rooms FROM rooms WHERE token='"+socket.token+"'", function(room_err,room_info)
 			{
+				console.log(room_info);
 				var rooms;
 				if(typeof room_info != 'undefined' && room_info.length !== 0)
 				{
