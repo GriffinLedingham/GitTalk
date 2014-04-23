@@ -371,7 +371,7 @@ io.sockets.on('connection', function (socket) {
 			var room_query = db.query("SELECT token, rooms FROM rooms WHERE token='"+socket.token+"'", function(room_err,room_info)
 			{
 				var rooms;
-				if(room_info.length !== 0)
+				if(typeof room_info != 'undefined' && room_info.length !== 0)
 				{
 					if(typeof room_info[0].rooms !== 'undefined')
 					{
